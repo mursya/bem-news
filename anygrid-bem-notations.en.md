@@ -1,4 +1,4 @@
-# CSS Grids Generator AnyGrid that uses BEM-notations and etc!
+# AnyGrid – CSS Grids Generator that uses BEM-notations and etc!
 
 [Vasya Aksenov](https://twitter.com/outring) developed a great project — **CSS Grids Generator** called [AnyGrid](http://anygrid.net/). 
 
