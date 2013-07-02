@@ -102,18 +102,17 @@ exports.techMixin = {
 
 ### 3. Изменения сигнатуры методов в базовом классе технологии
 
-#|
-||V1|V2||
-||buildByDecl(decl, levels, output)|buildByDecl(decl, levels, output, opts)||
-||getBuildResult(prefixes, suffix, outputDir, outputName)|getBuildResult(files, suffix, output, opts)||
-||getBuildResults(prefixes, outputDir, outputName)|getBuildResults(decl, levels, output, opts)||
-||getBuildPrefixes(decl, levels)|-||
-||build(prefixes, outputDir, outputName)|-||
-||filterPrefixes(prefixes, suffixes)|-||
-||-|getBuildPaths(decl, levels)||
-||-|saveLastUsedData(file, data)||
-||-|getLastUsedData(file)||
-|#
+V1                               | V2
+-------------------------------- |---------------------------------------
+buildByDecl(decl, levels, output)|buildByDecl(decl, levels, output, opts)
+getBuildResult(prefixes, suffix, outputDir, outputName)|getBuildResult(files, suffix, output, opts)
+getBuildResults(prefixes, outputDir, outputName)|getBuildResults(decl, levels, output, opts)
+getBuildPrefixes(decl, levels)|
+build(prefixes, outputDir, outputName)|
+filterPrefixes(prefixes, suffixes)|
+|getBuildPaths(decl, levels)
+|saveLastUsedData(file, data)
+|getLastUsedData(file)
 
   * Во всех методах, где встречается аргумент `opts`, — это хэш параметров, которые были переданы в `bem build`. В него же можно добавлять свои вспомогательные параметры.
   * Вместо пары outputDir, outputName передается один аргумент output, содержащий путь к файлу (без суффикса), который (-ые) будет (-ут) создаваться.
