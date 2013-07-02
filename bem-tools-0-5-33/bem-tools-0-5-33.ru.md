@@ -14,7 +14,7 @@
 
 У нас по-прежнему нет полноценной поддержки Windows, к сожалению, но мы готовы принимать баг-репорты от тех, кто работает с этой ОС.
 
-Пишите предложения в комментарии в [клуб БЭМ на Я.Ру](http://clubs.ya.ru/bem/), [Facebook](https://www.facebook.com/groups/bem.info/) или Twitter [@bem_ru](https://twitter.com/bem_ru).
+Пишите предложения в комментарии в [клуб БЭМ на Я.Ру](http://clubs.ya.ru/bem/), Facebook [bem.info](https://www.facebook.com/groups/bem.info/) или Twitter [@bem_ru](https://twitter.com/bem_ru).
 
 Постараемся реагировать по возможности.
 
