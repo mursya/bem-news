@@ -2,7 +2,7 @@
 
 Особенно актуальна для любителей Windows.
 
-В стабильную версию [bem-tools 0.5.33](http://ru.bem.info/tools/bem/) вошли следующие изменения:
+В стабильную версию [bem-tools](http://ru.bem.info/tools/bem/) 0.5.33 вошли следующие изменения:
 
 * package: q updated to 0.8.12
 * package: borschik updated to 0.3.1
