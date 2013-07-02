@@ -110,9 +110,9 @@ getBuildResults(prefixes, outputDir, outputName)|getBuildResults(decl, levels, o
 getBuildPrefixes(decl, levels)|
 build(prefixes, outputDir, outputName)|
 filterPrefixes(prefixes, suffixes)|
-|getBuildPaths(decl, levels)
-|saveLastUsedData(file, data)
-|getLastUsedData(file)
+ |getBuildPaths(decl, levels)
+ |saveLastUsedData(file, data)
+ |getLastUsedData(file)
 
   * Во всех методах, где встречается аргумент `opts`, — это хэш параметров, которые были переданы в `bem build`. В него же можно добавлять свои вспомогательные параметры.
   * Вместо пары outputDir, outputName передается один аргумент output, содержащий путь к файлу (без суффикса), который (-ые) будет (-ут) создаваться.
@@ -133,28 +133,8 @@ filterPrefixes(prefixes, suffixes)|
   * saveLastUsedData(file, data)/getLastUsedData(file) сохраняет или загружает список файлов, из которых технология строила файл (file) в последний раз. Используется для валидации: нужно строить файл, или же он уже существует, и был построен из тех же файлов, из которых может быть построен сейчас.
 
 Стандартный ход выполнения методов v2 технологии выглядит так:
-%%(blockdiag)
-{
-  in -> A <-> B -> C <-> D;
-  A -> E -> F;
-  B <-> G;
-  
-  in [shape=minidiamond, label=""];
-  A [label="buildByDecl"];
-  B [label="getBuildResults"];
-  C [label="getBuildResult"];
-  D [label="getBuildResultChunk"];
-  E [label="storeBuildResults"];
-  F [label="storeBuildResult"];
-  G [label="getBuildPaths"];
-  
-  group G{
-     B,C,D,G;
-     shape=line;
-     style=dashed;
-  }
-}
-%%
+
+<img src="http://img-fotki.yandex.ru/get/9259/127846884.247/0_b0604_843e6646_XXL.png"/>
 
 Точкой входа является `buildByDecl`. Он вызывает `getBuildResults`, результат работы которого - это хэш, где ключ - суффикс файла, а значение - массив строк контента. Например, для технологии `i18n.js` он может выглядеть так:
 ```js
