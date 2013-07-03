@@ -1,8 +1,8 @@
-#bem tools v0.5.33
+#bem-tools v0.5.33
 
 Particularly relevant for Windows users.
 
-Stable release [bem tools](http://bem.info/tools/bem/) v0.5.33 includes the following npm dependencies updates:
+Stable release [bem-tools](http://bem.info/tools/bem/) v0.5.33 includes the following npm dependencies updates:
 
 * package: q updated to 0.8.12
 * package: borschik updated to 0.3.1
