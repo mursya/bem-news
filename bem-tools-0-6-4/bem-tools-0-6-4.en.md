@@ -1,6 +1,6 @@
 #bem-tools v0.6.4
 
-The stable [bem-tools](http://ru.bem.info/tools/bem/) v0.6.4 is available.
+The stable [bem-tools](http://bem.info/tools/bem/) v0.6.4 is available.
 
 In this version
   * The new API for technologies was added;
