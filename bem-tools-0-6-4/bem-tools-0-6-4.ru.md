@@ -1,6 +1,6 @@
-#Версия bem tools 0.6.4
+#Версия bem-tools 0.6.4
 
-Стабильная версия [bem-tool](http://ru.bem.info/tools/bem/) 0.6.4 доступна. 
+Стабильная версия [bem-tools](http://ru.bem.info/tools/bem/) 0.6.4 доступна. 
 
 В этой версии:
   * Добавлено новое API технологий;
@@ -75,7 +75,7 @@ MAKE.decl('Arch', {
 
 ### 1. Настройка своей технологии для использования нового API
 
-Чтобы ваша технология использвала новый API, нужно экспоритровать свойство API_VER:
+Чтобы ваша технология использвала новый API, нужно экспортировать свойство API_VER:
 
 ```js
 exports.API_VER = 2;
@@ -110,12 +110,12 @@ V1                               | V2
 buildByDecl(decl, levels, output)|buildByDecl(decl, levels, output, opts)
 getBuildResult(prefixes, suffix, outputDir, outputName)|getBuildResult(files, suffix, output, opts)
 getBuildResults(prefixes, outputDir, outputName)|getBuildResults(decl, levels, output, opts)
-getBuildPrefixes(decl, levels)|
-build(prefixes, outputDir, outputName)|
-filterPrefixes(prefixes, suffixes)|
- |getBuildPaths(decl, levels)
- |saveLastUsedData(file, data)
- |getLastUsedData(file)
+getBuildPrefixes(decl, levels)| -
+build(prefixes, outputDir, outputName)| -
+filterPrefixes(prefixes, suffixes)| -
+- |getBuildPaths(decl, levels)
+- |saveLastUsedData(file, data)
+- |getLastUsedData(file)
 
   * Во всех методах, где встречается аргумент `opts`, — это хэш параметров, которые были переданы в `bem build`. В него же можно добавлять свои вспомогательные параметры.
   * Вместо пары outputDir, outputName передается один аргумент output, содержащий путь к файлу (без суффикса), который (-ые) будет (-ут) создаваться.
