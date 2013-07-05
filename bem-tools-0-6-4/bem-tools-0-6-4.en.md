@@ -4,18 +4,18 @@ The stable [bem-tools](http://bem.info/tools/bem/) v0.6.4 is available.
 
 In this version
   * The new API for technologies was added;
-  * The build speed for bem make / server was increased when using new API.
+  * The build speed for bem make / server was improved when using new API.
 
 **IMPORTANT: for installation npm version 1.2.14 or higher is needed.**
 
 Let us go into details.
 
-## Improving the building speed of bem make / server
+## Improving the build speed of bem make / server
 
-In the new bem-tools version 0.6.4 the building speed of bem make / server was increased.  
+In the new bem-tools version 0.6.4 the speed of bem make / server was increased.  
 
 The speed gain depends on the project. 
-The tests have shown the speed improvement may varies from a few percent to dozens of times.
+In tests the speed improvement varies from a few percent to dozens of times.
 
 For example project-stub is using v2, see on [Github](https://github.com/bem/project-stub/tree/v2).
 
@@ -43,21 +43,21 @@ exports.getTechs = function() {
 The only difference in file paths for the old technology and the new one is the prefix `v2/` (see example above). 
 
 This applies to technologies that are already included in bem-tools, and those in [bem-bl](http://bem.github.io/bem-bl/index.ru.html).
-The old modules with the new version of bem-tools will work without any speed change.
+The old modules will work with the new version of bem-tools without any speed change.
 
-[bem-bl 0.3](https://github.com/bem/bem-bl/tree/0.3) already has everything what is necessary for using the v2.
+[bem-bl 0.3](https://github.com/bem/bem-bl/tree/0.3) already has everything necessary for using v2.
 
 There are some projects on which technologies by default aren't defined at the levels. 
 In this case the old version will be used. 
-To use the v2 one has to declare new technologies explicitly, as it was shown in the example above.
+To use version 2, one has to declare new technologies explicitly, as it was shown in the example above.
 
-When using the new technologies, an extra acceleration can be achieved by caching levels of definition with blocks.
+When using the new technologies, extra acceleration can be achieved by caching levels of definition with blocks.
 
 If you're working on a project which uses bem-bl (or other blocks library), and you don't change 
-these blocks, but edit them at definition levels, then the building process can be set up in the 
-way that bem-bl will be read only ones, and for the next builds the cache will be used.
+these blocks, but edit them at definition levels, then the building process can be set up so 
+bem-bl will be read only once, and for the next builds the cache will be used.
 
-This can be done by using the following code in the `.bem/make.js`
+This can be done by using the following code in `.bem/make.js`
 
 ```js
 MAKE.decl('Arch', {
@@ -73,16 +73,16 @@ MAKE.decl('Arch', {
 
 Here `cache:false` says that by default levels' cache is off.
 
-`except` is an array of levels' paths (or directories containing levels) on which will act the exception, 
-i.e. in this case the cache is enabled. 
+`except` is an array of levels' paths (or directories containing levels) treated as exceptions, 
+e.g. in this case the cache is enabled. 
 
 The cache will be regenerated if the build was run with the option `--force`.
 
 ## The changes in API
 
-### 1. Settings for the own technology for using the new API
+### 1. Settings for your own technology to use the new API
 
-To make possible for your technology use the new API you need to export the property API_VER:
+To allow your technology to use the new API you need to export the property API_VER:
 
 ```js
 exports.API_VER = 2;
@@ -113,7 +113,7 @@ but for better flexibility and understanding it's preferable to use `getBuildSuf
 In this example we say that we built the file `ie.css` from the files `ie.css` and `ie.hover.css`. 
 The number of keys in the returned object may be greater than one if the technology builds multiple files.
 
-### 3. Methods' signature changes in the base class of the technology
+### 3. Method signature changes in the base class of the technology
 
 | v1        | v2           |
 | ------------- |-------------|
@@ -128,8 +128,8 @@ The number of keys in the returned object may be greater than one if the technol
 |:x:|getLastUsedData(file)|
 
   * In all methods argument `opts` is a hash of parameters which were passed to `bem build`. Custom auxiliary parameters can be also added to `opts`.
-  * Only one argument `output` instead of couple `outputDir`, `outputName` is passed. It contains the path to the file (without suffix) which will be created.
-  * Instead of the argument `prefixes`(it contains the path to the potentially existing files at the levels, from which the build will be made) the argument %%files%% is passed. It's an array of files that exist on levels and have suffixes suitable for a build technology. An element of the array is an object with the following properties:
+  * Only one argument `output` instead of two (`outputDir`, `outputName`) is passed. It contains the path to the file (without suffix) which will be created.
+  * Instead of the argument `prefixes` (it contains the path to the potentially existing files at the levels, from which the build will be made) the argument %%files%% is passed. It's an array of files that exist on levels and have suffixes suitable for a build technology. An element of the array is an object with the following properties:
     * `file` - the file name.
     * `absPath` - the absolute path to the file.
     * `lastUpdated` - modification date of the file.
@@ -164,7 +164,7 @@ The standard way of the v2 methods execution looks like this:
 `storeBuildResults` receives the hash and saves content to files.
 
 To build the hash `getBuildResults()` receives a list of files by calling `getBuildPaths()`. 
-The list contains all files that are contained at the used levels of definition and suit for the build technology. 
+The list contains all files that are contained at the levels of definition which are used, and that are appropriate for the build technology. 
 That is the suffixes which correspond to what is written in the technology `getBuildSuffixesMap()`. 
 Then for each suffix (in the case of i18n.js it is en.js, ru.js, etc) `storeBuildResults()` is called and 
 a list of files filtered by a specific suffix is passed to it.
