@@ -1,6 +1,6 @@
 #bem-cli: запусти bem-tools локально
 
-Михаил Давыдов написал инструмент [bem-cli](https://github.com/bem/bem-cli bem-cli), 
+Михаил Давыдов написал инструмент [bem-cli](https://github.com/bem/bem-cli), 
 который может запускать локально установленный [bem-tools](http://ru.bem.info/tools/bem/).
 
 Иногда БЭМ-проекты имеют разные версии bem-tools, и нельзя выполнить команду `npm i -g bem`, чтобы bem-tools 
