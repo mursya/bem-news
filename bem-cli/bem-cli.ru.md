@@ -25,7 +25,7 @@
 Репозиторий bem-cli на [GitHub](https://github.com/bem/bem-cli). 
 Ошибки и пожелания присылайте [сюда](https://github.com/bem/bem-cli/issues).
 
-*Михаил Давыдов*, JavaScript и Node.js разработчик. Занимается фронтенд-разработкой cервиса Яндекс.Такси, 
+**Михаил Давыдов**, JavaScript и Node.js разработчик. Занимается фронтенд-разработкой cервиса Яндекс.Такси, 
 мобильными веб-приложениями и промо-проектами. Пишет и переводит статьи по JavaScript 
 для [Хабрахабра](http://habrahabr.ru/) под ником [azproduction](http://habrahabr.ru/users/azproduction/).
 
