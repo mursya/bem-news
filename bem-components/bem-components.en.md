@@ -6,7 +6,7 @@ To gain backward compatibility [bem-controls](https://github.com/bem/bem-control
 copy with issues disabled, that was created at the moment of renaming.
 
 Unfortunately, we have lost old links to issues. If you need them, you need to switch it in url https://github.com/bem/bem-controls/issues/106 a part 
-"bem-controls" to "bem-components" directly.
+"bem-controls" to "bem-components" (https://github.com/bem/bem-components/) directly.
 
 It is impossible to create read-only repository. Therefore please try not to push there anything. 
 If you accidently made a mistake, please, 
