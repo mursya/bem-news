@@ -26,9 +26,9 @@
 Островах Яндекса.
 
 Митап и ребят, которые приехали с рассказами, активно поддерживали в твиттере.
-— Евгений [@iswitch](https://twitter.com/iswitch/status/363352368953712640): Митап по БЭМ прошел отлично! 
-— Nick Sadovnikov ‏[@GruZZ](https://twitter.com/GruZZ/status/363304838307647489): Вася, мы за тебя болеем! 
-—  iVariable [@DiVariable](https://twitter.com/DiVariable/status/363313426782633985) @GruZZ @mursya_ru @bem_ru Держим пальцы крестиком!
+* Евгений [@iswitch](https://twitter.com/iswitch/status/363352368953712640): Митап по БЭМ прошел отлично! 
+* Nick Sadovnikov ‏[@GruZZ](https://twitter.com/GruZZ/status/363304838307647489): Вася, мы за тебя болеем! 
+* iVariable [@DiVariable](https://twitter.com/DiVariable/status/363313426782633985) @GruZZ @mursya_ru @bem_ru Держим пальцы крестиком!
 
 **Василий Чернов**, ведущий верстальщик в **Softline** и докладчик BEMup, поделился своими впечатлениями:
 
