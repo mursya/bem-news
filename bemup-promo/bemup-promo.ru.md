@@ -25,6 +25,13 @@
 Бонус-треком стали рассказы про [bem-mvc](https://github.com/bem/bem-mvc) на примере приложения Todo и БЭМ в 
 Островах Яндекса.
 
+Митап и ребят, которые приехали с рассказами, активно поддерживали в твиттере
+
+> — Евгений [@iswitch](https://twitter.com/iswitch/status/363352368953712640): Митап по БЭМ прошел отлично! 
+— Nick Sadovnikov ‏[@GruZZ](https://twitter.com/GruZZ/status/363304838307647489): Вася, мы за тебя болеем! 
+#b_ #bem #bemup @mursya_ru @bem_ru
+—  iVariable [@DiVariable](https://twitter.com/DiVariable/status/363313426782633985) @GruZZ @mursya_ru @bem_ru Держим пальцы крестиком!
+
 **Василий Чернов**, ведущий верстальщик в **Softline** и докладчик BEMup:
 
 > Митап однозначно удался. Не знаю какими должны быть подобные мероприятия, но всё прошло очень здорово. 
