@@ -28,7 +28,7 @@
 Митап и ребят, которые приехали с рассказами, активно поддерживали в твиттере.
 * Евгений [@iswitch](https://twitter.com/iswitch): Митап по БЭМ прошел отлично! 
 * Nick Sadovnikov ‏[@GruZZ](https://twitter.com/GruZZ): Вася, мы за тебя болеем! 
-* iVariable [@DiVariable](https://twitter.com/DiVariable) @GruZZ @mursya_ru @bem_ru Держим пальцы крестиком!
+* iVariable [@DiVariable](https://twitter.com/DiVariable): @GruZZ @mursya_ru @bem_ru Держим пальцы крестиком!
 
 **Василий Чернов**, ведущий верстальщик в **Softline** и докладчик BEMup, поделился своими впечатлениями:
 
