@@ -19,7 +19,8 @@ We ended up with 2 developers sharing their BEM implementation experience:
 [Vassily Chernov](https://twitter.com/bivihoba), lead frontend developer at **Softline**, came from Orenburg, 
 and [Vladimir Dovydenko](https://twitter.com/dovyden), frontend developer from **TKS Bank**, Moscow. 
 
-They talked about the conditions under which they implement BEM in their projects, what cases they solve using BEM-methodology, how they use tools and write CSS, their difficulties and the costs they have because of large-scale changes, what results they have achieved and what plans they have.
+They talked about the conditions under which they implement BEM in their projects, what cases they solve using 
+BEM-methodology, how they use tools and write CSS, their difficulties and the costs they have because of large-scale changes, what results they have achieved and what plans they have.
 
 As a bonus we had talks about [bem-mvc](https://github.com/bem/bem-mvc) library, with Todo written as an 
 example, and implementation of BEM technologies in Islands platform that Yandex launched recently.
@@ -27,11 +28,19 @@ example, and implementation of BEM technologies in Islands platform that Yandex 
 [Vassily Chernov](https://twitter.com/bivihoba), lead frontend developer at **Softline** and speaker, 
 shared what he liked about BEMup:
 
-> The meetup was a success. I do not know how such events should be, but everything went pretty well.  I had concrete expectations, and my expectations were met. It is worth a lot to look in the eyes of those who have the same 'BEM brain' as I do! It was interesting to listen to the talks and comments of Yandex developers and guys from the industry. 
+> The meetup was a success. I do not know how such events should be, but everything went pretty well.  I had 
+concrete expectations, and my expectations were met. It is worth a lot to look in the eyes of those who have the same 'BEM brain' as I do! It was interesting to listen to the talks and comments of Yandex developers and guys from the industry. 
 
-> I would like to highlight a talk about Islands libraries. It would be great to have more details such as this talk was about. It is interesting to hear about real projects, solutions, and not only from Yandex, as well as to ask questions and even troll. Personally I was asked more about processes than technologies. How to prove BEM is a good choice to my colleagues? How many projects we do using BEM? How to agree with each other? How to start with a block library out of your project? 
+> I would like to highlight a talk about Islands libraries. It would be great to have more details such as this 
+talk was about. It is interesting to hear about real projects, solutions, and not only from Yandex, as well 
+as to ask questions and even troll. Personally I was asked more about processes than technologies. How to prove BEM 
+is a good choice to my colleagues? How many projects we do using BEM? How to agree with each other? How 
+to start with a block library out of your project? 
 
-> I really hope you will continue this start, and BEMups will be regular events. Because this is a great option to exchange experience and motivate yourself to achieve the next BEM level. I, for instance, was inspired to finish a something I postponed for half a year! Thanks to Yandex and you guys for such an event. Staying BEMed, Vasya.
+> I кeally hope you will continue this start, and BEMups will be regular events. Because this is a great option to 
+exchange experience and motivate yourself to achieve the next BEM level. I, for instance, was inspired to 
+finish a something I postponed for half a year! Thanks to Yandex and you guys for such an event. Staying BEMed, 
+Vasya.
 
 The BEM team also made few conclusions.
 
@@ -60,10 +69,7 @@ bem-tools are before getting into news. But they knew already!
 be different. I think it is worthwhile to ask external speakers to share not only their «success stories» but more 
 concrete examples of realization.
 
-> The overall feeling still associates BEM with a naming convention and with structuring a page with blocks, elements, 
-all that stuff. Those who tried to go further and use Yandex' experience faced imperfection and opacity of our inner 
-processes. For instance, an absence of development plans, clear release cycles, absence (or bad quality) of 
-documentation. These are serious issues for a serious development, and we will work towards fixing them. 
+> The overall feeling still associates BEM with a naming convention and with structuring a page with blocks, elements, all that stuff. Those who tried to go further and use Yandex' experience faced imperfection and opacity of our inner processes. For instance, an absence of development plans, clear release cycles, absence (or bad quality) of documentation. There are serious issues for a serious development. 
 
 Thanks to the meetup we have all this feedback (and more). We will be working towards an 
 improvement of the product and sharing this with you during future BEMups. 
