@@ -3,7 +3,7 @@
 First meetup about BEM happened to be on August 2, in Moscow office of Yandex and was called 
 [BEMup](http://bitly.com/bemup).
 
-During 3 hours of in a friendly atmosphere Yandex developers and programmers from other IT companies shared news, 
+During 3 hours in a friendly atmosphere Yandex developers and programmers from other IT companies shared news, 
 BEM implementation experience, discussed plans, difficulties and their ways of solving them.
 
 BEM team talked about latest releases in [bem-tools](http://bit.ly/ru-bemtools), shared details of 
@@ -14,14 +14,15 @@ We also explained technical details of contributing into the project, what “we
 what flow in BEM development we have, how to test changes in BEM-project correctly, and what you can do to try 
 out helping us in developing BEM.
 
-During the preparation times we have got  proposals to give out talks from other developers outside Yandex. 
+During the preparation times we have got proposals to give out talks from other developers outside Yandex. 
 
 At the end we have got 2 developers sharing their BEM implementation experience: 
 [Vassily Chernov](https://twitter.com/bivihoba), lead frontend developer at **Softline**, came from Orenburg, 
 and [Vladimir Dovydenko](https://twitter.com/dovyden), frontend developer from **TKS Bank**, Moscow. 
 
 They talked about the conditions under which they implement BEM in their projects, what cases they solve using 
-BEM-methodology, how do they use tools and write CSS, in general shared their difficulties and costs they have because of large-scale changes, what results they have achieved and what plans they have.
+BEM-methodology, how do they use tools and write CSS, in general shared their difficulties and costs they have because 
+of large-scale changes, what results they have achieved and what plans they have.
 
 As a bonus track we had talks about [bem-mvc](https://github.com/bem/bem-mvc) library with Todo written as an 
 example and implementation of BEM technologies in Islands platform that Yandex launched recently.
@@ -29,18 +30,18 @@ example and implementation of BEM technologies in Islands platform that Yandex l
 [Vassily Chernov](https://twitter.com/bivihoba), lead frontend developer at **Softline** and meetup’s speaker, 
 shared, what he liked about BEMup:
 
-> Meetup was a success. I do not know how such events should look like, but everything went pretty well.  I had 
+> Meetup was a success. I do not know how such events should look like, but everything went pretty well. I had 
 concrete expectations, and my expectations met. It costs a lot to see in the eyes of those who has as well so 
-called BEM brain as I do! It was interesting to hear out talks and comments of Yandex developers and guys from 
+called BEM brain "disease" as I do! It was interesting to hear out talks and comments of Yandex developers and guys from 
 the industry. 
 
 > I would like to highlight a talk about Islands libraries. Would be great to have more details such as this 
-talks was about. It is interesting to hear out about real projects, solutions, and not only from Yandex, as well 
+talk was about. It is interesting to hear out about real projects, solutions, and not only from Yandex, as well 
 as to ask questions and even troll. Personally I was asked more about processes than technologies. How to prove BEM 
 is a good choice in front of the colleagues? How many projects we do using BEM? How to agree with each other? How 
 to start with a block library out of your project? 
 
-> I кeally hope you will continue this start, and BEMups will be regular events. Because this is a great option to 
+> I really hope you will continue this start, and BEMups will be regular events. Because this is a great option to 
 exchange experience and motivate yourself to achieve the next BEM level. Me myself, for instance, was inspired to 
 finish a thing I postponed during the half a year! Thanks to Yandex and you, guys, for such an event. Staying BEMed, 
 Vasya.
@@ -85,11 +86,11 @@ Such events and your feedback help us a lot to see those we can not see because 
 More than **50 frontend developers** and IT leaders from Moscow, Ekaterinburg, Orenburg, Ivanovo, Serpukhov, 
 Obninsk, Volgograd came to meetup.
 
-Watch how we did it in a promo video.
+Watch how we did it in a promo video with English subtitles.
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/4jrUgqMlvP0" frameborder="0" allowfullscreen></iframe>
 
-If you use BEM technologies in your projects and want to share it with us, write us at info@bem.info
+If you use BEM technologies in your projects and want to share your experience with us, write us at info@bem.info
 
 Photos from the event are available [here](http://bitly.com/bemup-photo).
 
