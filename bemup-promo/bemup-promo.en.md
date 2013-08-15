@@ -60,7 +60,10 @@ bem-tools are before getting into news. But they knew already!
 be different. I think it is worthwhile to ask external speakers to share not only their «success stories» but more 
 concrete examples of realization.
 
-> The overall feeling still associates BEM with a naming convention and with structuring a page with blocks, elements, all that stuff. Those who tried to go further and use Yandex' experience faced imperfection and opacity of our inner processes. For instance, an absence of development plans, clear release cycles, absence (or bad quality) of documentation. There are serious issues for a serious development. 
+> The overall feeling still associates BEM with a naming convention and with structuring a page with blocks, elements, 
+all that stuff. Those who tried to go further and use Yandex' experience faced imperfection and opacity of our inner 
+processes. For instance, an absence of development plans, clear release cycles, absence (or bad quality) of 
+documentation. These are serious issues for a serious development, and we will work towards fixing them. 
 
 Thanks to the meetup we have all this feedback (and more). We will be working towards an 
 improvement of the product and sharing this with you during future BEMups. 
