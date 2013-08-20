@@ -1,4 +1,4 @@
-# BEMup: watch it, feel it! 
+# BEMup — watch it, feel it! 
 
 [BEMup](http://bitly.com/bemup), our first meetup about BEM was on August 2, in the Moscow office of Yandex.
 
