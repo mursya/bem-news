@@ -34,8 +34,8 @@ exports.getTechs = function() {
         'js'             : 'v2/js-i',
         'bemdecl.js'     : 'v2/bemdecl.js',
         'deps.js'        : 'v2/deps.js',
-        'i18n'           : '../bem-bl/blocks-common/i-bem/bem/techs/v2/i18n.js'),
-        'i18n.js'        : '../bem-bl/blocks-common/i-bem/bem/techs/v2/i18n.js.js'),
+        'i18n'           : '../bem-bl/blocks-common/i-bem/bem/techs/v2/i18n.js',
+        'i18n.js'        : '../bem-bl/blocks-common/i-bem/bem/techs/v2/i18n.js.js',
         'css'            : 'v2/css'
     };
 };
