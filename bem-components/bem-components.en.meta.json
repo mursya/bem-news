@@ -4,10 +4,10 @@
     "editDate": "",
     "summary": "According to plan, we renamed the bem-controls repository to bem-components.",
     "thumbnail": "",
-    "author": "Yelena Jetpyspayeva",
+    "author": ["jetpyspayeva-yelena"],
     "tags": ["news"],
-    "category": ["news"],
-    "translator": "",
+    "categories": ["news"],
+    "translator": [""],
     "url": "/bem-components/",
     "type": "news",
     "slug": ""

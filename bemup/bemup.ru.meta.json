@@ -4,10 +4,10 @@
     "editDate": "05-08-2013",
     "summary": "2 августа 2013 года, в пятницу, в московском Яндексе прошел первый митап по БЭМ!",
     "thumbnail": "",
-    "author": "Елена Джетпыспаева",
+    "author": ["jetpyspayeva-yelena"],
     "tags": ["news","BEM","BEMup"],
-    "category": ["news"],
-    "translator": "",
+    "categories": ["news"],
+    "translator": [""],
     "url": "/bemup/",
     "type": "news",
     "slug": ""

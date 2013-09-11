@@ -4,10 +4,10 @@
     "editDate": "",
     "summary": "Мы переименовали репозиторий bem-controls в bem-components.",
     "thumbnail": "",
-    "author": "Елена Джетпыспаева",
+    "author": ["jetpyspayeva-yelena"],
     "tags": ["news"],
-    "category": ["news"],
-    "translator": "",
+    "categories": ["news"],
+    "translator": [""],
     "url": "/bem-components/",
     "type": "news",
     "slug": ""

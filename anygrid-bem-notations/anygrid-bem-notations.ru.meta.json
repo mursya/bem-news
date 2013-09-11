@@ -4,10 +4,10 @@
     "editDate": "",
     "summary": "Вася Аксёнов написал вот такой крутой проект — генератор сеток AnyGrid.",
     "thumbnail": "",
-    "author": "Елена Джетпыспаева",
+    "author": ["jetpyspayeva-yelena"],
     "tags": ["news","css"],
-    "category": ["news"],
-    "translator": "",
+    "categories": ["news"],
+    "translator": [""],
     "url": "/anygrid-bem-notations/",
     "type": "news",
     "slug": ""
