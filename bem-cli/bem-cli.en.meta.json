@@ -4,10 +4,10 @@
     "editDate": "",
     "summary": "Mikhail Davydov wrote a tool called bem-cli that launches locally installed bem-tools.",
     "thumbnail": "",
-    "author": ["jetpyspayeva-yelena"],
+    "authors": ["jetpyspayeva-yelena"],
     "tags": ["news","tools","bem-tools"],
     "categories": ["news"],
-    "translator": [""],
+    "translators": [""],
     "url": "/bem-cli/",
     "type": "news",
     "slug": ""

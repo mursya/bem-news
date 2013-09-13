@@ -4,10 +4,10 @@
     "editDate": "",
     "summary": "Videos from the first BEMup, that took place in Moscow on August 2, 2013.",
     "thumbnail": "",
-    "author": ["jetpyspayeva-yelena"],
+    "authors": ["jetpyspayeva-yelena"],
     "tags": ["news","BEM","BEMup"],
     "categories": ["news"],
-    "translator": [""],
+    "translators": [""],
     "url": "/bemup-talks/",
     "type": "news",
     "slug": ""

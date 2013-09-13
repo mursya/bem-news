@@ -4,10 +4,10 @@
     "editDate": "",
     "summary": "Михаил Давыдов написал инструмент bem-cli, который может запускать локально установленный bem-tools.",
     "thumbnail": "",
-    "author": ["jetpyspayeva-yelena"],
+    "authors": ["jetpyspayeva-yelena"],
     "tags": ["news","tools","bem-tools"],
     "categories": ["news"],
-    "translator": [""],
+    "translators": [""],
     "url": "/bem-cli/",
     "type": "news",
     "slug": ""
