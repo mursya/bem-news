@@ -12,7 +12,7 @@ Stable release [bem-tools](http://bem.info/tools/bem/) v0.5.33 includes the foll
 
 Most important — npm-dependancies refreshed including [Borshik](http://bem.info/articles/borschik/) version with Windows build fixes.
 
-If you have experienced problems with bem tools on Windows before, please try it again now.
+If you have experienced problems with bem-tools on Windows before, please try it again now.
 
 We still lack complete Windows support, however we are ready to get bug reports for Windows OS.
 
