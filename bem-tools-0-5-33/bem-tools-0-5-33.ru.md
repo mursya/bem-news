@@ -10,7 +10,7 @@
 * package: ometajs updated to 3.2.4
 * package: preferglobal set to false
 
-Основное и важное — обновлены npm-зависимости, включая версию [Borschik](http://ru.bem.info/articles/borschik/), в которой исправлены баги сборки под Windows.
+Основное и важное — обновлены npm-зависимости, включая версию [borschik](http://ru.bem.info/articles/borschik/), в которой исправлены баги сборки под Windows.
 
 Если вы когда-то поставили bem-tools на Windows, попробовали что-то собрать, и у вас не получилось, попробуйте сделать это сейчас.
 
